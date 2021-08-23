@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  max-width: 750px;
+  justify-content: center;
+  background-color: #303030;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  
+}
+
+.formLabel{
+  color: #fff;
+  padding: 10px 0;
+}
+
+
+.btnSubmit{
+  height: 35px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #59ff00;
+  color: #000;
+}

@@ -1,26 +1,67 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      //definindo os layouts da page
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "children": [
+      //aplicando o layout da page desktop
       "flex-layout.row#footer"
     ]
   },
-  "footer-layout.mobile": { 
+  "footer-layout.mobile": {
     "children": [
+      //aplicando o layout da page mobile
       "flex-layout.row#footer"
     ]
   },
-  "flex-layout.row#footer": { 
+  "flex-layout.row#footer": {
     "children": [
-      "image"
+      //componente customizado sendo inserido
+      "rodape"
     ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
   }
 }
+/* 
+
+  "flex-layout.row#footer": {
+    "children": [
+      "link#login",
+      "link#desafios",
+      "link#loja",
+      "link#suporte"
+    ]
+  },
+  "link#login": {
+    "props": {
+      "href": "/login",
+      "label": "Entrar",
+      "blockClass": "linkFooter"
+    }
+  },
+  "link#desafios": {
+    "props": {
+      "href": "/",
+      "label": "Desafios",
+      "blockClass": "linkFooter"
+    }
+  },
+  "link#loja": {
+    "props": {
+      "href": "/loja",
+      "label": "Loja",
+      "blockClass": "linkFooter"
+    }
+  },
+  "link#suporte": {
+    "props": {
+      "href": "/suporte",
+      "label": "Suporte",
+      "blockClass": "linkFooter"
+    }
+  }
+
+*/

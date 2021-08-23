@@ -1,0 +1,13 @@
+.flexRowContent{
+  display: flex;
+  justify-content: space-around;
+  background: #212121;
+}
+
+.flexRow{
+  width: 100%;
+}
+
+.stretchChildrenWidth{
+  background: #303030;
+}

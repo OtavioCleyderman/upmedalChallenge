@@ -1,0 +1,14 @@
+.slideChildrenContainer {
+  background: #303030;
+}
+
+.slideChildrenContainer--carousel {
+  margin-top: 50px;
+  
+}
+
+.sliderLayout,
+.sliderLayoutContainer, 
+.slideLayoutContainer--carousel {
+  background: #303030 ;
+}

@@ -1,0 +1,27 @@
+{
+  // página customizada para pegar os leads
+  "store.custom#ganhe12": {
+    "blocks": [
+      "flex-layout.row#titulo",
+      "flex-layout.row#form"
+    ]
+  },
+  "flex-layout.row#titulo": {
+    "children": [
+      "rich-text#ganhe12"
+    ]
+  },
+  "rich-text#ganhe12": {
+    "props": {
+      "text": "## Ganhe R$12 ao se cadastrar",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-form"
+    }
+  },
+  "flex-layout.row#form": {
+    "children": [
+      "leads"
+    ]
+  }
+}

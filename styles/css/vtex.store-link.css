@@ -1,0 +1,14 @@
+.link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #59ff00;
+}
+
+.link--linkFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #424242;
+}

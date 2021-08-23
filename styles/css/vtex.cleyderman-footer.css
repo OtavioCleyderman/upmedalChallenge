@@ -1,0 +1,15 @@
+.rodape{
+background: #424242;
+width: 100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.rodapeItem{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 25px;
+}
